@@ -3,19 +3,19 @@
 int maxfun(int[], int);
 int main()
 {
-    int i, x[4];
-    printf("%d ", maxfun(x, 4));
+    int i, x[10];
+    printf("%d ", maxfun(x, 10));
 }
 int maxfun(int z[], int y)
 {
     int max, i;
-    printf("enter the 4 number: ");
-    for (i = 0; i < 4; i++)
+    printf("enter any number: ");
+    for (i = 0; i <10; i++)
     {
         scanf("%d", &z[i]);
     }
     max = z[0];
-    for (i = 1; i < 4; i++)
+    for (i = 1; i < 10; i++)
     {
         if (max < z[i])
         {
